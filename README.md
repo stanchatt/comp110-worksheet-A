@@ -7,3 +7,5 @@ Base repository for COMP110, assignment 1, worksheet A
 * Copy the save file into your local repository folder.
 * Commit, push, and open a pull request.
 * Check the Travis CI report to ensure that you have met all requirements for the worksheet.
+
+**IMPORTANT**: Do **not** edit, rename or delete any of the other files in the repository! If you do, it may cause the Travis CI build to fail and you may lose marks as a result.
