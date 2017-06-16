@@ -1,3 +1,5 @@
+# Do not edit, rename or delete this file!
+
 language: python
 python:
   - "2.7"
