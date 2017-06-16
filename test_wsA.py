@@ -1,3 +1,5 @@
+# Do not edit, rename or delete this file!
+
 import pytest
 import os
 import sqlite3
