@@ -2,9 +2,13 @@ language: python
 python:
   - "2.7"
 env:
-  - STRETCH=false
-  - STRETCH=true
+  - TEST_SET=core
+  - TEST_SET=stretch_a
+  - TEST_SET=stretch_b
+  - TEST_SET=stretch_c
 matrix:
   allow_failures:
-    - env: STRETCH=true
+    - env: TEST_SET=stretch_a
+    - env: TEST_SET=stretch_b
+    - env: TEST_SET=stretch_c
 script: py.test
