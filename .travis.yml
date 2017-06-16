@@ -1,6 +1,10 @@
 language: python
 python:
   - "2.7"
-script:
-  - py.test test_wsA.py
-  - py.test test_wsA_2.py
+env:
+  - STRETCH=false
+  - STRETCH=true
+matrix:
+  allow_failures:
+    - env: STRETCH=true
+script: py.test
