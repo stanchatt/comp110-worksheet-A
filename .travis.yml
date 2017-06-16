@@ -1,4 +1,6 @@
 language: python
 python:
   - "2.7"
-script: py.test
+script:
+  - py.test test_wsA.py
+  - py.test test_wsA_2.py
