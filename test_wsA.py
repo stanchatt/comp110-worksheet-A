@@ -52,7 +52,7 @@ if which_tests == 'core':
 		("bonding-4", "Split Before Bonding"),
 		("bonding-6", "Settling into the Routine"),
 		("bonding-7", "Nothing Works"),
-		("bonding-boss", "A Most Unfortunate Malfunction"),
+		# ("bonding-boss", "A Most Unfortunate Malfunction"),
 		# ("bonding-5", "Challenge: In-Place Swap")
 	]
 		
@@ -77,4 +77,15 @@ elif which_tests == 'stretch_b':
 		assert row['symbols'] <= 20
 
 elif which_tests == 'stretch_c':
-	pass
+	levels = [
+		("bonding-5", "Challenge: In-Place Swap"),
+		("sensing-1", "An Introduction to Sensing"),
+		("sensing-2", "Prelude to a Migraine"),
+		("sensing-3", "Random Oxides"),
+	]
+		
+	@pytest.mark.parametrize("level_id,level_friendly_name", levels)
+	def test_level_completed(level_id, level_friendly_name):
+		row = get_level_row(level_id)
+		assert row is not None, "'%s' has not been attempted" % level_friendly_name
+		assert row['passed'] != 0, "'%s' has not been passed" % level_friendly_name
