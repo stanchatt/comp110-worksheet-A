@@ -10,7 +10,7 @@ First, upload YouTube videos to show to the tutor:
 * Complete the SpaceChem levels listed in the worksheet.
 * Use SpaceChem's built-in YouTube upload function to upload a video for each level you have solved.
 * Compile these videos into a YouTube playlist.
-* Edit this file by clicking [README.md](here) and then clicking the pencil icon in the top right.
+* Edit this file by clicking [README.md](README.md) and then clicking the pencil icon in the top right.
 * Paste a link to your YouTube playlist where indicated above.
 
 Second, upload your SpaceChem save file to be analysed by the automatic marking script:
