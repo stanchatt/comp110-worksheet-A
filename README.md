@@ -16,7 +16,7 @@ First, upload YouTube videos to show to the tutor:
 Second, upload your SpaceChem save file to be analysed by the automatic marking script:
 * Fork this repository to your own GitHub account, using the "Fork" button at the top right of this page.
 * Locate your SpaceChem save file on your hard disk. Normally it is stored under `C:\Users\<your name>\AppData\Local\Zachtronics Industries\SpaceChem\save\000.user`.
-* Use the "Upload files" button on this page to upload your save file.
+* Use the "Upload files" button on this page to upload your save file. Leave it named as `000.user`.
 * Open a pull request by clicking the "New Pull Request" button above.
 
 **IMPORTANT**: 
