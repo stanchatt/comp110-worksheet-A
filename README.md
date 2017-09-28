@@ -4,7 +4,11 @@ Base repository for COMP110, assignment 1, worksheet A
 ## YouTube playlist
 Paste a link to your YouTube playlist here.
 
-## Instructions
+## Instruction video
+
+[![COMP110 worksheet A submission instructions](http://img.youtube.com/vi/RZPPM0LZmn8/0.jpg)](https://youtu.be/RZPPM0LZmn8 "COMP110 worksheet A submission instructions")
+
+## Summary of instructions
 
 First, upload YouTube videos to show to the tutor:
 * Complete the SpaceChem levels listed in the worksheet.
